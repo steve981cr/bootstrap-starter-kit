@@ -5,9 +5,9 @@ Bootstrap Starter Kit
 
 These files are used in conjunction with the Frontend Web Development - Learn Bootstrap live class.
 
-They consist of an HTML file called template-bootstrap.htm that has HTML markup for the basic elements of a website,
+They consist of an HTML file called template-bootstrap.html that has HTML markup for the basic elements of a website,
 and bootstrap classes that add CSS style rules and JavaScript actions to the site. 
-Instructions of how to use this file are at http://code.techandstartup/learn-bootstrap/ and further instruction is
+Instructions of how to use this file are at http://code.techandstartup.com/learn-bootstrap/ and further instruction is
 given in the live class.
 
 There are four additional folders. The source for the Bootstrap files is http://getbootstrap.com/getting-started/.

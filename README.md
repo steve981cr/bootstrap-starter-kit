@@ -13,6 +13,6 @@ given in the live class.
 There are four additional folders. The source for the Bootstrap files is http://getbootstrap.com/getting-started/.
 
 css - holds the Bootstrap css files.<br>
-js - holds the Bootstrap JavaScript files.<br>
+js - holds the Bootstrap JavaScript files, jQuery, and two files to make Bootstrap work with IE 7 and 8 (HTML5Shiv.js and Respond.js).<br>
 fonts - holds the Bootstrap/glyphicons icon files.<br>
 img - holds sample image files linked to in the template-bootstrap.html file.

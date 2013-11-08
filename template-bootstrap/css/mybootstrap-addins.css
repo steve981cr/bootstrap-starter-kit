@@ -1,0 +1,21 @@
+/* MyBootstrap Addins - Add your own CSS style rules in addition to Bootstrap
+
+body {
+  padding-top:70px;
+} 
+  */
+  
+
+  
+
+/* The adjust-anchor class is also related to the navbar-fixed-top class. It is needed when you have internal links on the page. Without it the top line of the anchored link would be hidden by the navbar. */
+.adjust-anchor {
+  padding-top: 40px; 
+  margin-top: -40px;
+}
+
+#img3 {
+  width: 322px;
+  height: 251px;
+  margin: 30px 30px 30px 0;
+}

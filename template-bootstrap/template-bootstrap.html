@@ -1,0 +1,450 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+  <head> 
+    <meta charset="utf-8"> 
+    <title>Bootstrap Template</title> 
+    <!-- Include viewport meta to ensure proper rendering on mobile devices and touch zooming  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <!-- Optional: add metadata for search engines -->
+    <meta name="description" content="Enter description of your site">
+    <meta name="author" content="Author Name if relevant">
+    <meta name="keywords" content="put, key, words, here, separated, by commas"> 
+    
+    <!-- Link to the Bootstrap Stylesheet. Either link to a downloaded copy saved to your css folder, or link to the CDN. Link to the faster min version, and use the regular version to review the code. -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"> <!-- CDN version (cloud) --> 
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- To add 3D dimensions to your themes add a copy and link to the bootstrap-theme.min.css stylesheet     -->
+    <!-- <link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
+    
+    <!-- If you add your own custom styling in addition to bootstrap then create a css file and link to it here. -->
+    <link rel="stylesheet" type="text/css" href="css/mybootstrap-addins.css">   
+    
+    <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">  <!-- Local Version -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries. To non IE browsers it is a comment, to IE it is a conditional statement that executes if true. You can download the two JS files and save them to your js folder to have HTML5 tags work in IE8 and earlier. IE9 came out in 2011. -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+
+    <div class="container"> <!-- Place container div after navbar if using static or fixed nav class. -->
+    
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-default">  
+      <!-- Charcoal Color: change navabar-devault to navbar-inverse -->
+      <!-- Place Navbar at top but scrollable: insert in the class navbar-static-top -->
+      <!-- Fix Navbar to top: insert in the class navbar-fixed-top -->
+        <!-- <div class="container">  
+        <!-- Insert Container div if you use navbar-static-top or navbar-fixed-top -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Current Page</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+        <!--  </div>  /.container if using fixed or static nav class -->
+      </nav> 
+      
+
+  
+      <!-- CONTENT -->
+      <!-- Header (optional) -->   
+      <header class="jumbotron">  <!-- class options: "jumbotron", "page-header", "well", "well well-lg", "well well-sm", "lead". If you want to make room for the sidebar in this section, put the row and column divs above this section instead of below it. -->
+        <h1>Bootstrap Template <small>HTML Base File</small></h1>
+        <p>Use as a base template to create Web Pages with Bootstrap.</p>
+      </header>
+
+      <!--  To create multiple columns, start with a div using the row class. Then divs for each column  -->
+      <div class='row'>
+        <div class="col-md-9">   <!--  This creates a column, set at 9/12 of the grid  -->
+        
+          <!-- Text -->
+          <h3 id="text">Text Styling</h3>         
+          <p>You can format words directly with HTML tags such as <strong>strong</strong>, <b>bold</b>, <em>emphasis</em>, <i>italic for different voice or mood</i>, and <u>underline</u>.  
+          <p class="text-center"> Use bootstrap classes to align text-center or text-right (left is default).</p>
+          To change the color of the text use one of the following classes: <p class="text-muted">text-muted</p>
+          <p class="text-primary">text-primary</p>
+          <p class="text-success">text-success</p>
+          <p class="text-info">text-info</p>
+          <p class="text-warning">text-warning</p>
+          <p class="text-danger">text-danger</p>
+          <hr>
+          
+          
+          <!-- Hyperlinks -->
+          <h3 id="hyperlink">Hyperlinks</h3>
+          Now add a hyperlink to another website <a href="http://google.com">google.com</a>. Now add a link that opens in a new window <a href="http://google.com" target="_blank">google.com</a></p>
+          <p>At the bottom there are more hyperlinks in the aside element (i.e., the sidebar) that link to sections on this page. Instead of an http:// link use # followed by the id name. For instance Hyperlinks heading has an id attribute of "hyperlink". So in the sidebar there is a link to this section. In that link tag, the href attribute is <code>href="#hyperlink"</code>.</p>
+          <hr>
+
+          
+          <!-- Lists -->          
+          <h3 id="list">Lists</h3>
+          Unordered List Title:
+          <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ul>
+          Ordered List Title:
+          <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ol>
+          <hr>          
+          
+          
+          <!-- Show/Hide -->
+          <h3 id="show-hide">Show and Hide Content</h3>     
+          <p>Bootstrap uses JavaScript to show or hide content.</p>
+          <div><a href="#hidden-content" data-toggle="collapse">See More Details &raquo;</a></div>  
+          <div id="hidden-content" class="collapse">  
+          Create two divs. The first has an anchor element (i.e., a hyperlink) to the second div and includes the visible text such as "show more". It also include a data-toggle attribute. The second div includes the hidden text and has a class attribute of "collapse". 
+          </div> 
+          <br>
+          <p>Show-Hide Button:
+            <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#hidden-content2">
+              See Hidden Content
+            </button>
+            <div id="hidden-content2" class="collapse in">To have the content show as the default insert the <i>in</i> class attribute in the opening tag as in this example.</div>
+          </p>
+          
+          <hr>
+          
+          
+          <!-- Images -->
+          <h3 id="image">Images</h3>
+          <p>Insert an image using the figure tags with a caption. You can set the image width and height directly in the img tag or in the bootstrap-addon css file by assigning the image an id and styling the id.
+            <figure>
+              <img src="img/html-syntax.png" alt="HTML Syntax Image" class="img-rounded" id="img1">
+              <figcaption>HTML Syntax</figcaption>
+            </figure>  
+          </p>
+          
+          <p>Insert an image here with a hyperlink. Put the image tag inside the anchor tags.<br>
+            <figure class="img-thumbnail">      
+              <a href="http://code.techandstartup.com/reference/css"><img src="img/css-syntax.png" alt="CSS Syntax Image" id="img2"></a>
+              <h3 class="text-center">Thumbnail label</h3>
+              <figcaption class="text-center">Thumbnail caption</figcaption>
+            </figure>  
+          </p>
+          
+          <p>Insert an image here and create a float by using the <i>pull-left</i> or <i>pull-right</i> class. This will make the text wrap around it. <img src="img/box-model.png" alt="image" class="pull-left img-thumbnail" id="img3">
+          This is text after the image. You can add a border around the image using the <i>img-thumbnail</i> class. You can make rounded corners by adding the img-rounded class. You can make it completely round by adding the img-round class. To adjust the space around the image you will need to add padding or margin. To do that you'll need to insert an id attribute then add the padding or margin to your addin stylesheet.</p> 
+          <p>It is best to save the image to the size you want to display it, then include the actual width and height in the style rule. You can find out the dimensions of an image by right clicking on it and looking in the properties.</p>
+    
+          <p class="clearfix">To stop wrapping elements use the <i>clearfix</i> class. Without this the next header section would wrap around the image.</p>
+          <hr>
+          
+
+          <!-- Glyphicons -->          
+          <h3 id="glyphicon">Glyphicons</h3>    
+          <p>Glyphicons are a set of 200 icons created by <a href="http://glyphicons.com/">Glyphicon.com</a> and bundled free with Bootstrap. They are saved locally in your <i>fonts</i> folder. They can be used in your website to provide visual cues such as the <span class="glyphicon glyphicon-home"></span> home icon next to the home link in your navigation bar. We are using them in the sidebar of this site.</p>
+          <p>Examples: <span class="glyphicon glyphicon-search"></span> <span class="glyphicon glyphicon-print"></span> <span class="glyphicon glyphicon-arrow-up"></span> <span class="glyphicon glyphicon-cog"></span> <span class="glyphicon glyphicon-camera"></span>.         
+          Example in a button: <button type="button" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-star"></span> Star</button><br>
+          The full list is at <a href="http://getbootstrap.com/components/#glyphicons-glyphs">getbootstrap.com</a>.</p>
+          <hr>
+      
+      
+          <!-- Tables -->
+          <h3 id="table">Tables</h3>
+          <p>Use one of the following table classes or class combinations: <i>table</i>, <i>table well</i> <i>table table-bordered</i>, <i>table table-striped</i>, <i>table table-hover</i>, <i>table table-condenced</i>. You can include or exclude a table caption.</p>          
+          <table class="table table-condensed">
+            <caption>Optional Table Caption</caption>
+            <thead>
+              <tr>
+                <th></th>
+                <th>Column Header 1</th>
+                <th>Column Header 2</th>
+                <th>Column Header 3</th>
+                <th>Column Header 4</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>Row Header A</th>
+                <td>001</td>
+                <td>Text</td>
+                <td>More Text</td>
+                <td>A</td>
+              </tr>
+              <tr>
+                <th>Row Header B</th>          
+                <td>002</td>
+                <td>Text</td>
+                <td>More Text</td>
+                <td>B</td>
+              </tr>
+              <tr>
+                <th>Row Header C</th>          
+                <td>003</td>
+                <td>Text</td>
+                <td>More Text</td>
+                <td>C</td>
+              </tr>
+              <tr>
+                <th>Row Header D</th>          
+                <td>003</td>
+                <td>Text</td>
+                <td>More Text</td>
+                <td>D</td>
+              </tr>          
+            </tbody>
+          </table>     
+          <hr>
+
+
+          <!-- Buttons -->
+          <h3 id="button">Buttons</h3>   
+            <h4>Button Classes:</h4> 
+            <p>Use the HTML button element to create a button. Use the type="button" attribute to ensure consistent presentation across browsers. For Bootstrap styling and color add the <code>btn</code> and <code>btn-<i>style</i></code> class.</p>
+            <!-- Button Element with no styling -->
+            <button type="button">Unstyled</button>
+            
+            <!-- Standard button -->
+            <button type="button" class="btn btn-default">Default</button>
+
+            <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+            <button type="button" class="btn btn-primary">Primary</button>
+
+            <!-- Indicates a successful or positive action -->
+            <button type="button" class="btn btn-success">Success</button>
+
+            <!-- Contextual button for informational alert messages -->
+            <button type="button" class="btn btn-info">Info</button>
+
+            <!-- Indicates caution should be taken with this action -->
+            <button type="button" class="btn btn-warning">Warning</button>
+
+            <!-- Indicates a dangerous or potentially negative action -->
+            <button type="button" class="btn btn-danger">Danger</button>
+
+            <!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
+            <button type="button" class="btn btn-link">Link</button>
+
+            <!-- Add disabled attribute to make it appear disabled -->            
+            <button type="button" class="btn btn-default" disabled="disabled">Disabled</button>
+            <button type="button" class="btn btn-primary" disabled="disabled">Primary Disabled</button>
+          
+            <h4>Button Sizes:</h4> 
+            <p>Add <code>btn-<i>size</i></code> class to the opening button tag to change the size of the button</p>
+            <p>
+              <button type="button" class="btn btn-primary btn-xs">Extra small button</button>
+              <button type="button" class="btn btn-default btn-xs">Extra small button</button>
+            </p>
+            <p>
+              <button type="button" class="btn btn-primary btn-sm">Small button</button>
+              <button type="button" class="btn btn-default btn-sm">Small button</button>
+            </p>
+            <p>
+              <button type="button" class="btn btn-primary">Default button</button>
+              <button type="button" class="btn btn-default">Default button</button>
+            </p>
+            <p>
+              <button type="button" class="btn btn-primary btn-lg">Large button</button>
+              <button type="button" class="btn btn-default btn-lg">Large button</button>
+            </p>
+            <p>add <code>btn-block</code> class to the opening button tag to make it block level.</p>
+            <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+            <button type="button" class="btn btn-default btn-lg btn-block">Block level button</button>
+
+            <h4>Use the button classes with hyperlinks and  Submit buttons:</h4>
+            <p>Insert the <code>btn btn-<i>style</i></code> class in the opening tag of the anchor (i.e., hyperlink) element to make it appear as a button.</p>
+            <a href="#" class="btn btn-primary" role="button">Link</a>
+            <p>You can use the same method when creating a form submit or reset button. Insert the <code>btn btn-<i>style</i></code> class in the opening tag of the input element. More on this in the Forms section.</p>
+            <input class="btn btn-default" type="submit" value="Submit">
+          
+          <hr>          
+          <!-- Forms -->
+          <h3 id="form">Forms</h3>  
+          <form action="" method="post" class="well" role="form">
+          
+            <fieldset>
+            <legend>Form Title</legend>
+          
+            <!-- Input Box -->
+            <div class="form-group">
+              <label for="firstname-input">First Name:</label>
+              <input type="text" class="form-control" id="firstname-input" name="firstname" placeholder="First Name">
+            </div>
+            
+            <div class="form-group">
+              <label for="lastname-input">Last Name:</label>
+              <input type="text" class="form-control" id="lastname-input" name="lsstname" placeholder="Last Name">
+            </div>    
+
+            <p><div class="form-inline"><b>Enter Name:</b><br>
+              <div class="form-group">
+                <input type="text" class="form-control" id="firstname-input" name="firstname" placeholder="First Name">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="lastname-input" name="lsstname" placeholder="Last Name">
+              </div>   
+            </div></p>
+            
+            <div class="form-group">
+              <label for="email-input">Email Address:</label>
+              <input type="email" class="form-control" id="email-input" name="email" placeholder="Enter email">
+            </div>
+            
+            <!-- Password field -->
+            <div class="form-group">
+              <label for="password-input">Password</label>
+              <input type="password" class="form-control" id="password-input" name="pwd" placeholder="Password">
+            </div>            
+            
+            <!-- Text Area -->           
+            <p>
+              <label for="bio">Bio:</label>
+              <textarea class="form-control" rows="3" id="bio" name="bio"></textarea>
+            </p>
+            
+            <!-- Select Box (aka Dropdown Box) -->
+            <p><label for="county-select">Select County:</label> 
+              <select id="county-select" name="county" class="form-control">
+                <option value="" selected>-------</option>
+                <option value="San Francisco">San Francisco</option>
+                <option value="San Mateo">San Mateo</option>
+                <option value="Palo Alto">Santa Clara</option>
+                <option value="Alameda">Alameda</option>
+                <option value="Marin">Marin</option>
+              </select>
+            </p>            
+            
+            <!-- Radio Buttons -->
+            <p><b>Gender:</b> 
+              <div class="radio">
+                <label>
+                  <input type="radio" name="gender" value="male"> 
+                  Male
+                </label>  
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="gender" value="female"> 
+                  Female
+                </label>   
+              </div>              
+            </p>            
+            <!-- To preselect an option add the checked attribute to the input tag -->
+            
+            <!-- Check Box -->    
+            <p><b>Language Proficiency:</b>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" name="language" value="HTML"> HTML
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" name="language" value="CSS"> CSS
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" name="language" value="Javascript"> JavaScript
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" name="language" value="Python"> Python
+                </label>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" name="language" value="SQL"> SQL
+                </label>
+              </div>              
+            </p>                      
+            
+            <!-- File Input --> 
+            <div class="form-group">
+              <label for="file-input">File Input:</label>
+              <input type="file" id="file-input">
+              <p class="help-block">Example block-level help text here.</p>
+            </div>        
+            
+            <hr>
+            <!-- Submit and Reset Buttons -->  
+            <p>
+              <input type="submit" class="btn btn-primary" name="submit" value="Submit">
+              <!-- You can also use the button element below. Result is the same.
+              <button type="submit" class="btn btn-default">Submit</button>  -->
+              <input type="reset" class="btn btn-primary" value="Reset">
+            </p>
+            </fieldset>
+          </form>     
+          
+        </div>  <!--/col-md-9 -->  
+        
+        <!-- SIDEBAR -->
+        <aside class="col-md-3"> <!--  aside is the sidebar tag. The col class creates a column, width is set at 3/12 of the grid  -->
+          <ul class="nav nav-pills nav-stacked well">  <!-- nav for navigation bar, nav-pils styles them as blocks, nav-stacked stacks them vertically instead of horizontal, well gives it the grey background -->
+            <li><span class="glyphicon glyphicon-hand-left"></span> Contents</li>
+            <li><a href='#text'><span class="glyphicon glyphicon-chevron-left"></span> Text</a></li>         
+            <li><a href='#hyperlink'><span class="glyphicon glyphicon-chevron-left"></span> Hyperlinks</a></li>
+            <li><a href='#list'><span class="glyphicon glyphicon-chevron-left"></span> Lists</a></li>            
+            <li><a href='#show-hide'><span class="glyphicon glyphicon-chevron-left"></span> Show-Hide Content</a></li>               
+            <li><a href='#image'><span class="glyphicon glyphicon-chevron-left"></span> Images</a></li>
+            <li><a href='#glyphicon'><span class="glyphicon glyphicon-chevron-left"></span> Glyphicons</a></li>
+            <li><a href='#table'><span class="glyphicon glyphicon-chevron-left"></span> Tables</a></li>
+            <li><a href='#button'><span class="glyphicon glyphicon-chevron-left"></span> Buttons</a></li>            
+            <li><a href='#form'><span class="glyphicon glyphicon-chevron-left"></span> Forms</a></li> 
+            <hr class="nav-divider">
+            <li><span class="glyphicon glyphicon-globe"></span> Resources</li>
+            <li><a href="http://getbootstrap.com"><span class="glyphicon glyphicon-download"></span> GetBootstrap</a></li>
+            <li><a href="http://code.techandstartup.com/learn-bootstrap"><span class="glyphicon glyphicon-info-sign"></span> Learn Bootstrap</a></li>                     
+            <li><a href="http://www.w3schools.com/"><span class="glyphicon glyphicon-info-sign"></span> W3 Schools</a></li>
+            <li><a href="http://www.w3schools.com/tags/ref_colorpicker.asp"><span class="glyphicon glyphicon-picture"></span> Color Picker</a></li>
+            <li><a href="http://csszengarden.com/"><span class="glyphicon glyphicon-star"></span> CSS Zen Garden</a></li>            
+          </ul>
+        </aside><!--/span-->    
+      </div> <!-- /row -->        
+    </div> <!--/.container -->        
+           
+    <hr>
+    <footer class="col-md-9">
+      <p class="text-center">Copyright &copy; 2013 MyCompany</p>
+    </footer>
+
+
+    <!-- JavaScript Source Files - Placed at the end for faster page loading -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    
+    <!-- Bootstrap's JavaScript file link to Bootstrap's cloud-based Content Delivery Network (CDN) -->
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+    <!-- Or link to the downloaded local copy of the javascript
+    <script src="js/bootstrap.min.js"></script>  -->
+    
+  </body>
+</html> 

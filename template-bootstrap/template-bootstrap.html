@@ -8,7 +8,7 @@
     <!-- Optional: add metadata for search engines -->
     <meta name="description" content="Enter description of your site">
     <meta name="author" content="Author Name if relevant">
-    <meta name="keywords" content="put, key, words, here, separated, by commas"> 
+    <meta name="keywords" content="put, keywords, here, separated, by commas"> 
     
     <!-- Link to the Bootstrap Stylesheet. Either link to a downloaded copy saved to your css folder, or link to the CDN. Link to the faster min version, and use the regular version to review the code. -->
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"> <!-- CDN version (cloud) --> 
@@ -29,15 +29,14 @@
   </head>
   <body>
 
-    <div class="container"> <!-- Place container div after navbar if using static or fixed nav class. -->
+    <div class="container"> <!-- Place container div here if you don't want the navbar to stretch all the way across the screen. -->
     
       <!-- NAVBAR -->
       <nav class="navbar navbar-default">  
-      <!-- Charcoal Color: change navabar-devault to navbar-inverse -->
-      <!-- Place Navbar at top but scrollable: insert in the class navbar-static-top -->
-      <!-- Fix Navbar to top: insert in the class navbar-fixed-top -->
-        <!-- <div class="container">  
-        <!-- Insert Container div if you use navbar-static-top or navbar-fixed-top -->
+      <!-- To change the navbar color to charcoal Color -> change navabar-devault to navbar-inverse -->
+      <!-- To place navbar at top but scrollable -> insert class navbar-static-top -->
+      <!-- To fix the navbar at the top so it doesn't scroll -> insert class navbar-fixed-top -->
+        <!-- Insert <div class="container"> here if you did not place it above the nav tag -->
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="icon-bar"></span>
@@ -70,7 +69,6 @@
             <li><a href="#">Link</a></li>
           </ul>
         </div><!--/.nav-collapse -->
-        <!--  </div>  /.container if using fixed or static nav class -->
       </nav> 
       
 
@@ -133,7 +131,7 @@
           <br>
           <p>Show-Hide Button:
             <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#hidden-content2">
-              See Hidden Content
+              Hide Content
             </button>
             <div id="hidden-content2" class="collapse in">To have the content show as the default insert the <i>in</i> class attribute in the opening tag as in this example.</div>
           </p>

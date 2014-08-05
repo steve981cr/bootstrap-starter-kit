@@ -11,18 +11,16 @@
     <meta name="author" content="Author Name if relevant">
     <meta name="keywords" content="put, keywords, here, separated, by commas"> 
     
-    <!-- Link to the bootstrap stylesheets. You can also add your own stylesheet to add additional CSS. You can either link to the Bootstrap CDN or download the files, place them in your css folder and link to them. -->
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"> 
-    <!-- <link href="css/bootstrap.min.css" rel="stylesheet" media="screen"> Use this link if you download the Bootstrap css file -->
+    <!-- Link to the bootstrap stylesheet.  -->
+    <!-- <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">  This is the Bootstrap CSS CDN (cloud) link -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen"> <!-- This is the Bootstrap CSS local link -->
     
     <!-- Optional Bootstrap Theme css file to add a 3D look to your site. Either link to the CDN version (cloud) or link to a copy downloaded to your css folder.  -->
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
-    <!-- <link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
+    <!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css"> This is the CDN link -->
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen"> <!-- This is the local link -->
     
     <!-- If you add your own custom styling in addition to bootstrap then create a css file and link to it here. -->
     <link rel="stylesheet" type="text/css" href="css/mybootstrap-addins.css">   
-    
-    <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">  <!-- Local Version -->
     
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries. To non IE browsers it is a comment, to IE it is a conditional statement that executes if true. You can download the two JS files and save them to your js folder to have HTML5 tags work in IE8 and earlier. IE9 came out in 2011. -->
     <!--[if lt IE 9]>
@@ -36,7 +34,7 @@
     <div class="container"> <!-- Place container div here if you don't want the navbar to stretch all the way across the screen. -->
     
       <!-- NAVBAR -->
-      <nav class="navbar navbar-default">  
+      <nav class="navbar navbar-default navbar-inverse">  
       <!-- To change the navbar color to charcoal Color -> change navabar-devault to navbar-inverse -->
       <!-- To place navbar at top but scrollable -> insert class navbar-static-top -->
       <!-- To fix the navbar at the top so it doesn't scroll -> insert class navbar-fixed-top -->
@@ -439,13 +437,14 @@
 
 
     <!-- JavaScript Source Files - Placed at the end for faster page loading -->
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://code.jquery.com/jquery.js"></script>
     
-    <!-- Bootstrap's JavaScript file link to Bootstrap's cloud-based Content Delivery Network (CDN) -->
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-    <!-- Or link to the downloaded local copy of the javascript
-    <script src="js/bootstrap.min.js"></script>  -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- <script src="https://code.jquery.com/jquery.js"></script>  This is the CDN (cloud link) -->
+    <script src="js/jquery-1.10.1.min.js"></script> <!-- This is the local jQuery link -->
+    
+    <!-- Bootstrap's JavaScript file link -->  
+    <!-- <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script> This is the CDN (cloud link) -->
+    <script src="js/bootstrap.min.js"></script>  <!-- This is the local link -->
     
   </body>
 </html> 
